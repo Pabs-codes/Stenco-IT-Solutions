@@ -16,6 +16,7 @@ import Header from "../components/home/Header";
 import Navbar from "../components/home/Navbar";
 import Portfolio from "../components/home/Portfolio";
 import StartSection from "../components/home/StartSection";
+import ConstructionPopup from "../components/home/ConstructionPopup";
 
 export default function Home() {
   return (
@@ -64,6 +65,8 @@ export default function Home() {
         <ProgressScroll />
         <Lines />
         <Navbar />
+
+        <ConstructionPopup/>
 
         <div id="smooth-wrapper">
           <div id="smooth-content">

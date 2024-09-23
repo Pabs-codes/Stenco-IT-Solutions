@@ -10,6 +10,7 @@
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "ldrs": "^1.0.2",
+    "lucide-react": "^0.445.0",
     "matches-selector": "^1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

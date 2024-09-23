@@ -71,7 +71,7 @@ const ConstructionPopup = () => {
             <ul style={styles.featureList}>
               <li>AI-powered IT infrastructure management</li>
               <li>Blockchain-based secure data storage</li>
-              <li>Quantum computing integration for complex problem-solving</li>
+           
               <li>Virtual and augmented reality training modules</li>
               <li>Green IT solutions for sustainable computing</li>
             </ul>
@@ -80,7 +80,7 @@ const ConstructionPopup = () => {
         
         {activeTab === 'contact' && (
           <div style={styles.tabContent}>
-            <h3 style={styles.subheading}>💡 Share Your Ideas</h3>
+            <h3 style={styles.subheading}> Share Your Ideas &#9822;</h3>
             <p style={styles.text}>We value your input! Send us your ideas via WhatsApp:</p>
             <div style={styles.inputGroup}>
               <input 

@@ -13,13 +13,46 @@ function StartSection() {
         <div className="text">
           <h2 className="text-bg">Showcases</h2>
         </div>
+
         <div className="panel">
           <div className="item">
             <div className="img">
               <img src="/landing-preview/img/showcase/1.jpg" alt="" />
             </div>
             <div className="text-center">
-              <h5>Fullscreen slider</h5>
+              <h5>Digital Banners</h5>
+            </div>
+            <a
+              href="/dark/showcase-fullscreen"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/16.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Web Development</h5>
+            </div>
+            <a
+              href="/dark/showcase-fullscreen"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/17.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Mobile Apps</h5>
             </div>
             <a
               href="/dark/showcase-fullscreen"
@@ -35,7 +68,7 @@ function StartSection() {
               <img src="/landing-preview/img/showcase/2.jpg" alt="" />
             </div>
             <div className="text-center">
-              <h5>Carousel Showcase</h5>
+              <h5>Business Cards</h5>
             </div>
             <a
               href="/dark/showcase-carousel"
@@ -48,10 +81,26 @@ function StartSection() {
         <div className="panel">
           <div className="item">
             <div className="img">
+              <img src="/landing-preview/img/showcase/12.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Logo Designing </h5>
+            </div>
+            <a
+              href="/dark/showcase-interactive-vertical"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>hnk
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
               <img src="/landing-preview/img/showcase/3.jpg" alt="" />
             </div>
             <div className="text-center">
-              <h5>Creative slider</h5>
+              <h5>Customized Thumbnails</h5>
             </div>
             <a
               href="/dark/showcase-half-slider"
@@ -67,7 +116,7 @@ function StartSection() {
               <img src="/landing-preview/img/showcase/4.jpg" alt="" />
             </div>
             <div className="text-center">
-              <h5>Interactive Fullscreen</h5>
+              <h5>Digital Annoucements</h5>
             </div>
             <a
               href="/dark/showcase-interactive-full"
@@ -99,7 +148,7 @@ function StartSection() {
               <img src="/landing-preview/img/showcase/6.jpg" alt="" />
             </div>
             <div className="text-center">
-              <h5>Interactive Vertical</h5>
+              <h5>Reels </h5>
             </div>
             <a
               href="/dark/showcase-interactive-vertical"
@@ -108,6 +157,93 @@ function StartSection() {
             ></a>
           </div>
         </div>
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/7.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Find Your Target Audience </h5>
+            </div>
+            <a
+              href="/dark/showcase-interactive-vertical"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/8.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Art & Design </h5>
+            </div>
+            <a
+              href="/dark/showcase-interactive-vertical"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/9.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Intro Videos </h5>
+            </div>
+            <a
+              href="/dark/showcase-interactive-vertical"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/14.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Vlogs </h5>
+            </div>
+            <a
+              href="/dark/showcase-interactive-vertical"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+
+
+        </div>
+
+
+
+        <div className="panel">
+          <div className="item">
+            <div className="img">
+              <img src="/landing-preview/img/showcase/13.jpg" alt="" />
+            </div>
+            <div className="text-center">
+              <h5>Video Editing </h5>
+            </div>
+            <a
+              href="/dark/showcase-interactive-vertical"
+              className="plink"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+
+      
       </section>
     </>
   );

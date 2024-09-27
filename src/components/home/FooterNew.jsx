@@ -16,8 +16,8 @@ function Footer() {
                   <span class="text">Hurry up!</span>
                 </span>
                 <h2 class="fz-70">
-                  Get <span class="spc-font">InFolio</span> and Create a
-                  <span class="spc-font">Professional</span> Website Today!
+                  Connect with <span class="spc-font">Stenco IT today.</span> 
+                  <span class="spc-font">Upgrade your</span> Digital Excellence!
                 </h2>
                 <a
                   href="#0"

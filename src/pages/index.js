@@ -12,11 +12,16 @@ import Services from "../components/home/Services";
 import Contact from "../components/home/Contact";
 import FooterLine from "../components/home/Footer";
 import Header from "../components/home/Header";
+import HeaderN from "../components/home/HeaderN";
+
 
 import Navbar from "../components/home/Navbar";
-import Portfolio from "../components/home/Portfolio";
+// import Portfolio from "../components/home/Portfolio";
+import Portfolios from "../components/home/Portfolios";
+
 import StartSection from "../components/home/StartSection";
 import ConstructionPopup from "../components/home/ConstructionPopup";
+import StartDemos from "../components/home/StartDemos";
 
 export default function Home() {
   return (
@@ -71,10 +76,13 @@ export default function Home() {
         <div id="smooth-wrapper">
           <div id="smooth-content">
             <main className="sub-bg">
+              <HeaderN/>
               <Header />
               <Services />
-              <Portfolio />
+              <Portfolios/>
+              {/* <Portfolio /> */}
               <Amazing />
+              <StartDemos/>
               <StartSection/>
               <Updates />
               <Testimonials />

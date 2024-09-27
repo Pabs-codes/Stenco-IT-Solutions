@@ -17,6 +17,8 @@ function Portfolio() {
               <span dataFilter="*" className="active">
                 Show All
               </span>
+              <span dataFilter=".art">Web Development</span>
+
               <span dataFilter=".art">Art</span>
               <span dataFilter=".Branding">Branding</span>
               <span dataFilter=".design">Design</span>

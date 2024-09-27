@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-function Porfolios() {
+function Portfolios() {
   return (
     <section className="uniq-portfolio section-padding position-re">
       <div className="container">
@@ -87,4 +87,4 @@ function Porfolios() {
   );
 }
 
-export default Porfolios;
+export default Portfolios;

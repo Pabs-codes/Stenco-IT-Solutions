@@ -1,62 +1,71 @@
-import React from "react";
+import React from 'react';
 
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bord blur">
+      <nav className="navbar navbar-expand-lg nav-crev">
         <div className="container">
           <a className="logo icon-img-100" href="#">
             <img src="/dark/assets/imgs/logo-light.png" alt="logo" />
           </a>
+
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="icon-bar">
+              <i className="fas fa-bars"></i>
+            </span>
+          </button>
 
           <div
             className="collapse navbar-collapse justify-content-center"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
-              <li className="nav-item ">
-                <a
-                  className="nav-link "
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <a className="nav-link" href="#0" data-scroll-nav="0">
                   <span className="rolling-text">Home</span>
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link "
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <a className="nav-link" href="#0" data-scroll-nav="1">
+                  <span className="rolling-text">Services</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#0" data-scroll-nav="2">
+                  <span className="rolling-text">About</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#0" data-scroll-nav="3">
                   <span className="rolling-text">Portfolio</span>
                 </a>
               </li>
-
               <li className="nav-item">
-                <a className="nav-link" href="/dark/page-contact">
-                  <span className="rolling-text">Contact Us</span>
+                <a className="nav-link" href="#0" data-scroll-nav="4">
+                  <span className="rolling-text">Team</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#0" data-scroll-nav="5">
+                  <span className="rolling-text">Blog</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#0" data-scroll-nav="6">
+                  <span className="rolling-text">Contact</span>
                 </a>
               </li>
             </ul>
           </div>
 
-          <div className="search-form">
-            <div className="form-group">
-              <input type="text" name="search" placeholder="Search" />
-              <button>
-                <span className="pe-7s-search"></span>
-              </button>
-            </div>
-            <div className="search-icon">
-              <span className="pe-7s-search open-search"></span>
-              <span className="pe-7s-close close-search"></span>
-            </div>
-          </div>
           <div className="topnav">
             <div className="menu-icon cursor-pointer">
               <span className="icon ti-align-right"></span>
@@ -65,7 +74,7 @@ function Navbar() {
         </div>
       </nav>
 
-      <div className="hamenu">
+      <div className="hamenu one-scroll">
         <div className="logo icon-img-100">
           <img src="/dark/assets/imgs/logo-light.png" alt="" />
         </div>
@@ -82,41 +91,67 @@ function Navbar() {
             <div className="col-lg-7">
               <div className="menu-links">
                 <ul className="main-menu rest">
-                  <li>
+                  <li data-scroll-nav="0">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
                         <span className="fill-text" data-text="Home">
                           Home
-                        </span>{" "}
+                        </span>
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li data-scroll-nav="1">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Pages">
-                          Pages
-                        </span>{" "}
+                        <span className="fill-text" data-text="Services">
+                          Services
+                        </span>
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li data-scroll-nav="2">
+                    <div className="o-hidden">
+                      <div className="link cursor-pointer dmenu">
+                        <span className="fill-text" data-text="About">
+                          About
+                        </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-scroll-nav="3">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
                         <span className="fill-text" data-text="Portfolio">
                           Portfolio
-                        </span>{" "}
+                        </span>
                       </div>
                     </div>
                   </li>
-
-                  <li>
+                  <li data-scroll-nav="4">
                     <div className="o-hidden">
-                      <a href="/dark/page-contact3" className="link">
-                        <span className="fill-text" data-text="Contact Us">
-                          Contact Us
+                      <div className="link cursor-pointer dmenu">
+                        <span className="fill-text" data-text="Team">
+                          Team
                         </span>
-                      </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-scroll-nav="5">
+                    <div className="o-hidden">
+                      <div className="link cursor-pointer dmenu">
+                        <span className="fill-text" data-text="Blogs">
+                          Blogs
+                        </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-scroll-nav="6">
+                    <div className="o-hidden">
+                      <div className="link cursor-pointer dmenu">
+                        <span className="fill-text" data-text="Contact">
+                          Contact
+                        </span>
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -127,7 +162,7 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    No: 357 ,  Kandy Road , <br /> Peliyagoda, Sri Lanka
+                    541 Melville Geek, <br /> Palo Alto, CA 94301
                   </h5>
                 </div>
                 <div className="item mb-50">
@@ -140,7 +175,7 @@ function Navbar() {
                     </li>
                     <li className="mb-10">
                       <a href="#0" className="hover-this">
-                        <span className="hover-anim">Instagram</span>
+                        <span className="hover-anim">Twitter</span>
                       </a>
                     </li>
                     <li className="mb-10">
@@ -150,7 +185,7 @@ function Navbar() {
                     </li>
                     <li>
                       <a href="#0" className="hover-this">
-                        <span className="hover-anim">X</span>
+                        <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
                   </ul>
@@ -158,10 +193,10 @@ function Navbar() {
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
                   <h5>
-                    <a href="#0">stencoitsolutions@gmail.com</a>
+                    <a href="#0">Hello@email.com</a>
                   </h5>
                   <h5 className="underline mt-10">
-                    <a href="#0">+94 77 997 6585 </a>
+                    <a href="#0">+1 840 841 25 69</a>
                   </h5>
                 </div>
               </div>

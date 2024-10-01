@@ -3533,6 +3533,17 @@ body.loaded {
   transition: all 0.3s;
 }
 
+.navbar .topnav-menu{
+  border: none;
+  background: none;
+}
+
+.navbar .topnav-menu span{
+  font-size: large;
+  font-weight: bold !important;
+  color: #fff;
+}
+
 .navbar .menu-icon {
   padding: 25px 30px;
 }
@@ -5878,6 +5889,13 @@ footer.clean-footer.crev:before {
 
 .startup-header .caption {
   position: relative;
+}
+
+@media (max-width: 480px) {
+  .startup-header .caption {
+    padding: 0 40px;
+  }
+  
 }
 
 .startup-header .caption .lg-text {

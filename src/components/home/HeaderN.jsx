@@ -181,7 +181,7 @@ function Header() {
         data-background="/dark/assets/imgs/background/1.jpg"
         data-overlay-dark="5"
       >
-        <div className="container pt-40">
+        <div className="container pt-40 slogan">
           <div className="caption">
             <div className="lg-text fw-600">
               <div className="text d-flex align-items-center">

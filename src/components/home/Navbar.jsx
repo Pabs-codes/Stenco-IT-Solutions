@@ -170,7 +170,8 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    541 Melville Geek, <br /> Palo Alto, CA 94301
+                    No: 357 ,<br />  Kandy Road , Peliyagoda,
+                    <br /> Sri Lanka 
                   </h5>
                 </div>
                 <div className="item mb-50">
@@ -181,30 +182,33 @@ function Navbar() {
                         <span className="hover-anim">Facebook</span>
                       </a>
                     </li>
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">Twitter</span>
-                      </a>
-                    </li>
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">LinkedIn</span>
-                      </a>
-                    </li>
                     <li>
                       <a href="#0" className="hover-this">
                         <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
+                   
+                    <li className="mb-10">
+                      <a href="#0" className="hover-this">
+                        <span className="hover-anim">LinkedIn</span>
+                      </a>
+                    </li>
+
+                    <li className="mb-10">
+                      <a href="#0" className="hover-this">
+                        <span className="hover-anim">X</span>
+                      </a>
+                    </li>
+                  
                   </ul>
                 </div>
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
                   <h5>
-                    <a href="#0">Hello@email.com</a>
+                    <a href="#0">info@stencoitsolutions.com</a>
                   </h5>
                   <h5 className="underline mt-10">
-                    <a href="#0">+1 840 841 25 69</a>
+                    <a href="#0">+94 77 997 6585</a>
                   </h5>
                 </div>
               </div>

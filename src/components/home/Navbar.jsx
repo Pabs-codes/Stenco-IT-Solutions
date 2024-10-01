@@ -3,13 +3,13 @@ import React from 'react';
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg nav-crev">
+      <nav className="navbar navbar-expand-xl nav-crev">
         <div className="container">
           <a className="logo icon-img-100" href="#">
             <img src="/dark/assets/imgs/logo-light.png" alt="logo" />
           </a>
 
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -21,7 +21,7 @@ function Navbar() {
             <span className="icon-bar">
               <i className="fas fa-bars"></i>
             </span>
-          </button>
+          </button> */}
 
           <div
             className="collapse navbar-collapse justify-content-center"
@@ -66,11 +66,19 @@ function Navbar() {
             </ul>
           </div>
 
-          <div className="topnav">
+          <button
+            className="topnav-menu"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <div className="menu-icon cursor-pointer">
               <span className="icon ti-align-right"></span>
             </div>
-          </div>
+          </button>
         </div>
       </nav>
 

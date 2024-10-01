@@ -6,7 +6,7 @@ import Cursor from "../common/cusor";
 import LoadingScreen from "../common/loader";
 import Amazing from "../components/home/Amazing";
 import Footer from "../components/home/FooterNew";
-import Testimonials from "../components/home/Testimonials";
+// import Testimonials from "../components/home/Testimonials";
 import Updates from "../components/home/Updates";
 import Services from "../components/home/Services";
 import Contact from "../components/home/Contact";
@@ -85,7 +85,7 @@ export default function Home() {
               <StartDemos/>
               <StartSection/>
               <Updates />
-              <Testimonials />
+              {/* <Testimonials /> */}
               <Contact />
               <Footer />
               <FooterLine />

@@ -62,9 +62,6 @@ function Navbar() {
                 <Link className={`nav-link ${isActive("/team")}`} to="/team">Team</Link>
               </li>
               <li className="nav-item">
-                <Link className={`nav-link ${isActive("/blog")}`} to="/blog">Blog</Link>
-              </li>
-              <li className="nav-item">
                 <Link className={`nav-link ${isActive("/contact")}`} to="/contact">Contact</Link>
               </li>
             </ul>
@@ -103,7 +100,6 @@ function Navbar() {
             <li><Link className={isActive("/about")} to="/about">About</Link></li>
             <li><Link className={isActive("/portfolio")} to="/portfolio">Portfolio</Link></li>
             <li><Link className={isActive("/team")} to="/team">Team</Link></li>
-            <li><Link className={isActive("/blog")} to="/blog">Blog</Link></li>
             <li><Link className={isActive("/contact")} to="/contact">Contact</Link></li>
           </ul>
           <div className="cont-info mt-6">
